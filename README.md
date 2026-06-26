@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Agentic AI Document Review System
 
 A production-ready autonomous multi-agent workflow that converts rough notes, bullet points, meeting transcripts, or unstructured text into highly structured professional documents.
@@ -402,3 +403,7 @@ docker compose down -v
 - Redis persists data via an `appendonly` AOF file in a named volume.
 - The HEALTHCHECK endpoint ensures the container is replaced if the app becomes unresponsive.
 - Set `APP_ENV=production` to enable JSON-formatted structured logging.
+=======
+# agentic-doc-review
+Agentic AI Document Review System is a multi-agent AI application that converts raw notes and drafts into professional documents. Using Writer and Critic agents with LangGraph and FastAPI, it automates document creation, review, revision, and approval while ensuring quality, consistency, and accuracy.
+>>>>>>> e9eb40e4131989212a21e725660fd5a794b83d44
